@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "outDir": "./dist"
+  },
+  "typeRoots": [
+    "node_modules/@types/",
+    "@types/"
+  ]
+}
