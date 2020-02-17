@@ -37,7 +37,6 @@
     "node-dev": "^4.0.0",
     "source-map-loader": "^0.2.4",
     "ts-loader": "^6.2.1",
-    "ts-node": "^8.6.2",
     "tslint": "^6.0.0",
     "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.7.5",
@@ -55,6 +54,7 @@
     "react-router-dom": "^5.1.2",
     "react-router-redux": "^4.0.8",
     "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "ts-node": "^8.6.2"
   }
 }
