@@ -8,7 +8,8 @@
     "build:frontend": "webpack",
     "build:db": "node -r ts-node/register scripts/createDatabase.ts",
     "watch:frontend": "webpack --watch",
-    "start": "node-dev --respawn -r ts-node/register src/api/server.ts"
+    "start:dev": "node-dev --respawn -r ts-node/register src/api/server.ts",
+    "start": "node -r ts-node/register src/api/server.ts"
   },
   "repository": {
     "type": "git",
