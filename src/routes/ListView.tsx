@@ -43,6 +43,7 @@ const ListView = ({
   })
 
   useEffect(() => {
+    document.title = `Color List Page ${pagination.currentPage}`
     fetchListViewData(pagination.currentPage)
   }, [pagination.currentPage])
 

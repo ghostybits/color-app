@@ -51,6 +51,7 @@ const DetailView = ({
   async function fetchColorDetail(colorID: string) {
     let res = await fetch(`/api/color/${colorID}`)
     let color = await res.json()
+    document.title = `${color.hex} details`
     setColor(color)
   }
   
